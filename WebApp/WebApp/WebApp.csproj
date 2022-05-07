@@ -1,0 +1,161 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-WebApp-3CE56BBE-7CFC-4E8F-9250-2193752E94FD</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.3" />
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.3" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.3">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.17.0" />
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.2" />
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.3" />
+        <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.17.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\App.BLL\App.BLL.csproj" />
+      <ProjectReference Include="..\App.Contracts.BLL\App.Contracts.BLL.csproj" />
+      <ProjectReference Include="..\Base.Domain\Base.Domain.csproj" />
+      <ProjectReference Include="..\Base.Resources\Base.Resources.csproj" />
+      <ProjectReference Include="..\App.DAL.EF\App.DAL.EF.csproj" />
+      <ProjectReference Include="..\Helpers.WebApp\Helpers.WebApp.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Difficulty\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Difficulty\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Difficulty\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Difficulty\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Difficulty\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Complexity\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Complexity\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Complexity\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Complexity\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Complexity\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectIdeas\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectIdeas\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectIdeas\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectIdeas\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectIdeas\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TestItems\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TestItems\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TestItems\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TestItems\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TestItems\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TeamInProject\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TeamInProject\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TeamInProject\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TeamInProject\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TeamInProject\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskStatus\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskStatus\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskStatus\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskStatus\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\TaskStatus\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTaskStatus\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTaskStatus\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTaskStatus\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTaskStatus\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTaskStatus\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTask\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTask\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTask\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTask\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\ProjectTask\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInTeam\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInTeam\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInTeam\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInTeam\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInTeam\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Team\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Team\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Team\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Team\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Team\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaFeedProfile\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaFeedProfile\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaFeedProfile\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaFeedProfile\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaFeedProfile\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Tag\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Tag\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Tag\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Tag\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Tag\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInProject\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInProject\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInProject\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInProject\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\UserInProject\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\CommentRating\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\CommentRating\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\CommentRating\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\CommentRating\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\CommentRating\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaRating\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaRating\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaRating\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaRating\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaRating\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaInFeed\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaInFeed\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaInFeed\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaInFeed\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\IdeaInFeed\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FeedTags\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FeedTags\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FeedTags\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FeedTags\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FeedTags\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Project\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Project\Delete.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Project\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Project\Edit.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Project\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\Error.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\_Layout.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\_LoginPartial.cshtml" />
+      <_ContentIncludedByDefault Remove="Areas\Admin\Views\Shared\_ValidationScriptsPartial.cshtml" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <UpToDateCheckInput Remove="Views\Difficulty\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\Difficulty\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\ProjectIdeas\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\ProjectIdeas\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\ProjectIdeas\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\ProjectIdeas\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\ProjectIdeas\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Complexity\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\Complexity\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\Complexity\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\Complexity\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\Complexity\Index.cshtml" />
+      <UpToDateCheckInput Remove="Views\Tag\Create.cshtml" />
+      <UpToDateCheckInput Remove="Views\Tag\Delete.cshtml" />
+      <UpToDateCheckInput Remove="Views\Tag\Details.cshtml" />
+      <UpToDateCheckInput Remove="Views\Tag\Edit.cshtml" />
+      <UpToDateCheckInput Remove="Views\Tag\Index.cshtml" />
+    </ItemGroup>
+
+</Project>

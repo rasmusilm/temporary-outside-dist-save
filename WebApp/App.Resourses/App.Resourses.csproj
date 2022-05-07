@@ -1,0 +1,186 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Update="App.Domain\Project.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>Project.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ProjectIdea.resx">
+        <Generator>PublicResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProjectIdea.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Tag.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Tag.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Comment.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Comment.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\CommentRating.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>CommentRating.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Complexity.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Complexity.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Difficulty.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Difficulty.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\FeedTag.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>FeedTag.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\IdeaFeedProfile.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>IdeaFeedProfile.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\IdeaInFeed.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>IdeaInFeed.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Idearating.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Idearating.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\IdeaTag.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>IdeaTag.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ProjectTask.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProjectTask.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\ProjectTaskStatus.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>ProjectTaskStatus.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\RoleInTeam.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>RoleInTeam.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\Team.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>Team.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\TeamInProject.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>TeamInProject.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\UserInProject.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>UserInProject.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+      <EmbeddedResource Update="App.Domain\UserInTeam.resx">
+        <Generator>ResXFileCodeGenerator</Generator>
+        <LastGenOutput>UserInTeam.Designer.cs</LastGenOutput>
+      </EmbeddedResource>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="App.Domain\Project.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Project.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ProjectIdea.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProjectIdea.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Tag.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Tag.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Comment.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Comment.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\CommentRating.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>CommentRating.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Complexity.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Complexity.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Difficulty.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Difficulty.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\FeedTag.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>FeedTag.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\IdeaFeedProfile.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>IdeaFeedProfile.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\IdeaInFeed.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>IdeaInFeed.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Idearating.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Idearating.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\IdeaTag.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>IdeaTag.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ProjectTask.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProjectTask.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\ProjectTaskStatus.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>ProjectTaskStatus.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\RoleInTeam.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>RoleInTeam.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\Team.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>Team.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\TeamInProject.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>TeamInProject.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\UserInProject.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>UserInProject.resx</DependentUpon>
+      </Compile>
+      <Compile Update="App.Domain\UserInTeam.Designer.cs">
+        <DesignTime>True</DesignTime>
+        <AutoGen>True</AutoGen>
+        <DependentUpon>UserInTeam.resx</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+</Project>

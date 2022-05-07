@@ -1,0 +1,12 @@
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\bin\Debug\net6.0\Base.Contracts.Domain.deps.json
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\bin\Debug\net6.0\Base.Contracts.Domain.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\bin\Debug\net6.0\ref\Base.Contracts.Domain.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\bin\Debug\net6.0\Base.Contracts.Domain.pdb
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.csproj.AssemblyReference.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.AssemblyInfoInputs.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.AssemblyInfo.cs
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\ref\Base.Contracts.Domain.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.Contracts.Domain\obj\Debug\net6.0\Base.Contracts.Domain.pdb

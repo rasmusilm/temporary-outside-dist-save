@@ -1,0 +1,15 @@
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\Base.DAL.deps.json
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\Base.DAL.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\ref\Base.DAL.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\Base.DAL.pdb
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\Base.Contracts.Base.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\bin\Debug\net6.0\Base.Contracts.Base.pdb
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.csproj.AssemblyReference.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.AssemblyInfoInputs.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.AssemblyInfo.cs
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.csproj.CoreCompileInputs.cache
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.csproj.CopyComplete
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\ref\Base.DAL.dll
+C:\Users\rasmu\icd0021-21-22-s\WebApp\Base.DAL\obj\Debug\net6.0\Base.DAL.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "14rgcUjDAnYlbAOB5f2lfwllAjpfnCGwvjGCYCwYy+oiagQLc9u47kx7OHnz7bP/9KGfJK/LTmItT2bwwteOYw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\rasmu\\icd0021-21-22-s\\WebApp\\Base.DAL\\Base.DAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\rasmu\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\rasmu\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
